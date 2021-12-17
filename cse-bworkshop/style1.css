@@ -1,0 +1,53 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+ 
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+img{
+    width: 80%;
+    height: 40%;
+    color: aqua;
+    border-radius: 10px;
+    border: rosybrown 2px solid;
+}
+.parent>div{
+    width: auto;
+    border: blue 2px solid;
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+  
+}
+h2{
+    color: blueviolet;
+
+}
+h3{
+    color: chartreuse;
+
+}
+button{
+    color:red;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card{
+    display: flex;
+    flex-direction:column;
+
+}
+ .card>div{
+     width: 40%;
+     border: aquamarine 2px solid;
+ }
+ 
